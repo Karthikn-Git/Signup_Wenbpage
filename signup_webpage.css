@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.leftside{
+    background-color: #003343;
+    width: 320px;
+    height: 400px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    top: 0%;
+    left: 0%;
+    position: relative;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+    margin-top: 170px;
+    color: white;
+}
+p{
+    font-size: small;
+    margin-top: -15px;
+    color: #87bfd2;
+}
+.rightside{
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    padding-top: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 780px;
+    margin-top: -410px;
+}
+.login{
+    margin-left: -170px;
+}
+.Email{
+    margin-left: -208px;
+}
+.password{
+    margin-left: -177px;
+}
+.Emailbox{
+    margin-left: -69px;
+    padding: 6px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-color: #dcdddc;
+    border-radius: 5px;
+}
+.passwordbox{
+    margin-left: -69px;
+    padding: 6px;
+    margin-top: 2px;
+    border-color: #dcdddc;
+    border-radius: 5px;
+}
+.checkbox{
+    margin-top: 25px;
+    margin-left: -32px;
+    text-align: left;
+}
+.secondline{
+    margin-left: -57px;
+    line-height: 10px;
+}
+.conditions{
+    margin-left: -127px;
+    color: #003343;
+    font-weight: bold;
+}
+.terms{
+    color: #003343;
+    font-weight: bold;
+}
+img{
+    width: 350px;
+    margin-top: -130px;
+    margin-left: -15px;
+}
+.loginbtn{
+    margin-top: 32px;
+    padding: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    background-color: #003343;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    border-color: none;
+}
+.loginbtn:hover{
+    cursor: pointer;
+    background-color: #003343e9;
+    transition: 0.15s;
+
+}
+.loginbtn:active{
+    background-color: #0033438f;
+}
+
